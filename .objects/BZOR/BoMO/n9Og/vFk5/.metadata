@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Documentos Emitidos",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vFk5xwFej0GYJ4kOnbDaow",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/vFk5xwFej0GYJ4kOnbDaow",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "Created": "2025-05-11T22:33:33.5063157Z",
+  "Updated": "2025-05-11T22:33:33.5063157Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

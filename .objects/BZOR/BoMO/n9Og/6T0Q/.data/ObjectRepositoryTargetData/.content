@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Iku6Rt7m6E2GSHNiXsyXTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos#/" DesignTimeRectangle="61, 437, 1797, 51" DesignTimeScaleFactor="1.25" ElementType="TableRow" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr' tag='TR' /&gt;" Guid="c3dd2e7d-be8a-4314-b380-8fe349673592" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4800f018a8675581e999f6ff67b881f.png" xmlns="">0jnNLuJ5plkWuPC-KlKL-zA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="7fae7535-528f-4d00-80ae-87719e8f668e" CvElementArea="172, 945, 48, 47" CvTextArea="191, 961, 10, 13" CvTextArgument="3" CvType="Button" DesignTimeRectangle="173, 946, 47, 44" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tableRow='12' tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='' check:innerText='3' /&gt;" Guid="3fbd40e8-e9d5-43e9-8fc0-5216260e5334" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Factura Electrónica",
+  "Type": "App",
+  "Id": "BZORej8tEUiV9o0wwvwzJA",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/BZORej8tEUiV9o0wwvwzJA",
+  "Created": "2025-05-11T22:12:05.1783924Z",
+  "Updated": "2025-05-11T22:12:05.1783924Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

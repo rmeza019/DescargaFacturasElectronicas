@@ -1,0 +1,194 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="DatePicker" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="DatePicker" sap:VirtualizedContainerService.HintSize="1297,612.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Factura Electrónica" sap:VirtualizedContainerService.HintSize="518,1266" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="90e43189-62ef-4b9e-8c38-bd7329685bef" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1049" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence sap:VirtualizedContainerService.HintSize="450,987" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha Desde'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="90e43189-62ef-4b9e-8c38-bd7329685bef" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="a21b82bb-32f3-4ed7-9bf9-815faa345938" ContentHash="7JeLRkkB0UCLdVxwXw1p4g" CvElementArea="986, 483, 276, 41" CvType="InputBox" DesignTimeRectangle="988, 485, 272, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='ctl00$ContentPlaceHolder1$txtFechaDesde' tag='INPUT' type='text' class='form-control fc-datepicker ' aaname='' /&gt;" Guid="4fdf5efc-8252-4b10-a810-8ffe72d076a1" InformativeScreenshot="b033861b83fca5ae01bfede901700539.png" IsResponsive="True" Reference="3Fi4I_VPoUyl9VBFEbTr7Q/Pj1ezbs1tEm1OP0qrJNjGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="a21b82bb-32f3-4ed7-9bf9-815faa345938" CvTextArea="986, 464, 95, 15" CvTextArgument="Fecha Desde" CvType="Text" DesignTimeRectangle="988, 462, 93, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Desde' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Desde' /&gt;" Guid="8b1dfa6d-42db-4ffc-b798-65d1742fa5a1" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha Desde'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="90e43189-62ef-4b9e-8c38-bd7329685bef" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="19e07046-a6e8-4045-8b61-0a0150575b12" ContentHash="T2uBROPXxUmUgFCr6CBTqA" CvTextArea="1101, 547, 36, 13" CvType="AnyWordGroup" DesignTimeRectangle="1026, 537, 188, 37" DesignTimeScaleFactor="1.25" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='bodyMain' tag='LI' class='' /&gt;" Guid="78cc3960-e9ce-4746-8e18-38276df95066" InformativeScreenshot="8460cb8138626df49b4d64bdbc6916e3.png" Reference="3Fi4I_VPoUyl9VBFEbTr7Q/mlNIHxgijk6wh9sI9TpklQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="19e07046-a6e8-4045-8b61-0a0150575b12" CvTextArea="986, 464, 95, 15" CvTextArgument="Fecha Desde" CvType="Text" DesignTimeRectangle="988, 462, 93, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Desde' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Desde' /&gt;" Guid="11e6f25a-5461-4cdc-9bf3-1ae633b24fdb" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha Desde'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="90e43189-62ef-4b9e-8c38-bd7329685bef" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="19e07046-a6e8-4045-8b61-0a0150575b12" ContentHash="T2uBROPXxUmUgFCr6CBTqA" CvTextArea="1101, 547, 36, 13" CvType="AnyWordGroup" DesignTimeRectangle="1026, 537, 188, 37" DesignTimeScaleFactor="1.25" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='bodyMain' tag='LI' class='' /&gt;" Guid="78cc3960-e9ce-4746-8e18-38276df95066" InformativeScreenshot="8460cb8138626df49b4d64bdbc6916e3.png" Reference="3Fi4I_VPoUyl9VBFEbTr7Q/mlNIHxgijk6wh9sI9TpklQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="19e07046-a6e8-4045-8b61-0a0150575b12" CvTextArea="986, 464, 95, 15" CvTextArgument="Fecha Desde" CvType="Text" DesignTimeRectangle="988, 462, 93, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Desde' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Desde' /&gt;" Guid="11e6f25a-5461-4cdc-9bf3-1ae633b24fdb" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" ContentHash="gIOnOBPTS06_d1lYvqPDBg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGeYUxB9wAAACBjSFJNAACHEAAAjBIAAP1NAACBPgAAWesAARIPAAA85gAAGc66ySIyAAABK2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAACjPY2BgMnB0cXJlEmBgyM0rKQpyd1KIiIxSYD/PwMbAzAAGicnFBY4BAT4gdl5+XioDBvh2jYERRF/WBZnFQBrgSi4oKgHSf4DYKCW1OJmBgdEAyM4uLykAijPOAbJFkrLB7A0gdlFIkDOQfQTI5kuHsK+A2EkQ9hMQuwjoCSD7C0h9OpjNxAE2B8KWAbFLUitA9jI45xdUFmWmZ5QoGFpaWio4puQnpSoEVxaXpOYWK3jmJecXFeQXJZakpgDVQtwHBoIQhaAQ0wBqtNBkoDIAxQOE9TkQHL6MYmcQYgiQXFpUBmUyMhkT5iPMmCPBwOC/lIGB5Q9CzKSXgWGBDgMD/1SEmJohA4OAPgPDvjkAwMZP/eeaqagAAAAJcEhZcwAAFxEAABcRAcom8z8AAAQDSURBVFhH3dZrUFRlHMfxMxU2Ig4qXkoHlYYCSoQaWkOuwqIkM403Jpu0y9SU5diFcTJXhpX7VRC8TGPYGwMzRC05hcvS7srugkbTQluiQk25UMmg7tq0bhL/fg/TNtue5zirMtj04vPmPDvnfPfs8/xBIKI7intxPHEvjidh0m5lA4g3S9iRKm7WZ4t1luViuTlBrDAn+azMFCfm6iPFM4OtKSyAbgUCCAGEAEIA4cY+QwAhgBCwiQU4vG/uizEKWC8JCNidRhN3pdI91YnkV50kSyhLoLd1Kqq3ZHgFJOMB8VRijKVS02KuYqOCcnTh9N2g9nlJgP+epXRvzZIRoSqOhMpYecWLaVPrFsfBrgyXZ8CO9iVUaox1FbcphotOxnAVGKKHVdr5I9aLzc9JAoSSKEprfEvT/rM13jjQvQJW8hj6rcpTA9oV5SbFFfaN3QE5ujDS9Jbn9zusUTZ7VzrPBbsl/cfLnU/99selR6UBeaH04onC+r+PyVSYJkNwOHsVal2kyzNgS8scsvxy7DW2DjNuYBaESAMKwulpMecIFgMhHCJkzMK3Sc03RDs9A7Zq51GH7cBmrE/y+ry3BRD2HwzIf4jWfZ7bgMW7IRjmcrDrgfgtld4B72hmU/evTS9hnf0EATL84T54WBpQGEGZTdmHncOuQAiHCInr1yJdf16/H29AEpCrXzBytEe1B/tgNbzKc7r/4Bvnhk6uRYB0D/jvSqGpe9MvB9eu+h5+4gmqTrz4gqam9orzvKLMpHB4BlR1KCnfEEWq1hBZr4sT6L3ONRYETJEEBGAO+NUkk1ChkKeeT0uPbdc4nH3RFV4BvmBDqP6bjWZugC/YrFgtljbanb2PYQ54BSRTuSkBEy9udOTybPsilD7s3nCKGzB57zK6a2cCJl0kLORTzaTEw9v0V6/hDZgX2T0DKttTqKjtccozLGT7gSvrRBDt/3pdBzfAb2c8hXyQ+cOapuyGlcdVTTzKjzdqir48ohr6/ewTJcaYq54Bal0EiecKKvoumZPOD7Vl8pwZ1D57wd6VgYAHJAHsGK5vzqvDIjtGQTCdYyZMxDFMyzNE/fsYtszGJPzkFay7JynPFJgDnGNYEEbPfKZuxCIbJKHwoIzp/9NJeJsB72rn0un++iysTwDem3Nj9w4d+4CWYOocOPQy1t17SA4bxdJTcLsBxcZF9P5Xazsavs366JD1zU/l1HVvaD5+dvuBMQ+obE+lwraY0eOo1svb2jqPqswpNOYBvmL/F+7rzHSwgH8e7hGgxQPYWX0E2G7lYX8Nn0QAxustB4y+gR6wuSHAhoBaPGAy3GgOzEBAPAL6EGDDTW8KAmwI6GE79Y7iXhxP3Ivjh4S/AMd8Z9XDDUUkAAAAAElFTkSuQmCC" InformativeScreenshot="3e7c972805fa98527ff73f29c3237ae6.jpg" Reference="3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA" Selector="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" Title="GTI Factura Electrónica" Url="https://www.facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos#/" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

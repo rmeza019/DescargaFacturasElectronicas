@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fWcALfLnaUeqjSyJ3KjTjQ" Reference="3Fi4I_VPoUyl9VBFEbTr7Q/0-5M_Dj4PkaWAv-x3gQOhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="3b3a50fe-fd3c-46b4-9c1a-10ec8a9bc588" DesignTimeRectangle="989, 584, 37, 38" DesignTimeScaleFactor="1.25" ElementType="ListItem" FuzzyAccuracy="1" Guid="bc688b9a-7fa0-46b4-bbba-a10a32bd3cdd" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8b59c241-19c4-40e8-81df-684f0d8715c6" CvTextArea="977, 397, 95, 17" CvTextArgument="Fecha Desde" CvType="Text" DesignTimeRectangle="988, 397, 93, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Desde' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Desde' /&gt;" Guid="1010e1f5-d7bd-4df5-a424-a01ea089d314" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;&lt;webctrl class='picked' parentid='bodyMain' tag='LI' aaname='{0}' innertext='{0}' /&gt;", startDay)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="41396b2b22292c61aa7069d16af5696e.png" xmlns="">0GIKnfrNDNkSNirYUSQHS5g</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="startDay" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

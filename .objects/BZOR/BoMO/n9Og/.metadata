@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Factura Electrónica",
+  "Type": "Screen",
+  "Id": "n9OgwKvUdUmInZy2a32EaA",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/BoMO7YfsCEuRK0USr-OEgg",
+  "Created": "2025-05-11T22:12:05.2478789Z",
+  "Updated": "2025-05-11T22:12:05.2478789Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

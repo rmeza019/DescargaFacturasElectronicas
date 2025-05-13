@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ot4yAsgWiUya6L3LfTM1zg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Home" CVScreenId="cf562d18-81ff-4826-ae90-b5593dba5c64" CvElementArea="1309, 485, 401, 45" CvType="InputBox" DesignTimeRectangle="1310, 551, 399, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ContentPage_txtCedula' tag='INPUT' type='text' class='inputForm form-control' placeholder='Número identificación' aaname='' /&gt;" Guid="650a4071-3d0e-45b7-851e-966f80250852" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1310, 720, 399, 47" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ContentPage_btnIniciarSesion' tag='INPUT' type='submit' class='btn btn-block btn-gti-orange btn-login' aaname='INGRESAR' check:text='INGRESAR' /&gt;" Guid="16423171-ecbf-4c28-a2c8-ea909a87b83e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bdc8c21c9d113425a585dc94ec3279d7.png" xmlns="">05sbqM3cP00Kzp0i1xag36g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p9hpH0WhzEew1n80hV07CQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Home" CVScreenId="db151d2d-19a3-4cdc-bd3d-fccc72596c3e" CvElementArea="1290, 471, 440, 46" CvType="InputBox" DesignTimeRectangle="1291, 472, 437, 43" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='ContentPage_ddlEmpresas' tag='SELECT' type='' class='form-control' aaname='' /&gt;" Guid="a088ce18-56b0-4265-b88b-bea5de3816ec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="db151d2d-19a3-4cdc-bd3d-fccc72596c3e" CvTextArea="1389, 425, 239, 28" CvTextArgument="Seleccionar Empresa" CvType="Text" DesignTimeRectangle="1391, 420, 237, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Seleccionar Empresa' check:innerText='Seleccionar Empresa' /&gt;" Guid="8261f783-ee2c-4dd2-be38-c9c72a80b92d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dde1d9af497c8d0c3b89d20d6edf76d1.png" xmlns="">0F2tSuqVFUU6QUQsSjE96Fg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Fecha Hasta(2)",
+  "Type": "Element",
+  "Id": "sF5m-1gk6UWUFbZW7tSUeQ",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/sF5m-1gk6UWUFbZW7tSUeQ",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "Created": "2025-05-11T23:49:02.9380073Z",
+  "Updated": "2025-05-11T23:49:02.9380073Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

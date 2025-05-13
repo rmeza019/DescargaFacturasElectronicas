@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Fecha Desde(2)",
+  "Type": "Element",
+  "Id": "mlNIHxgijk6wh9sI9TpklQ",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/mlNIHxgijk6wh9sI9TpklQ",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "Created": "2025-05-11T22:46:48.7722359Z",
+  "Updated": "2025-05-11T22:46:48.7722359Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

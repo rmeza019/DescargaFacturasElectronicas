@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4McsjlIAtUK46AKeN330sA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Home" CVScreenId="a6816cb6-aa20-43cd-88b3-4d9766160f83" CvElementArea="1307, 718, 402, 51" CvTextArea="1465, 735, 88, 17" CvTextArgument="INGRESAR" CvType="Button" DesignTimeRectangle="1310, 720, 399, 47" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ContentPage_btnIniciarSesion' tag='INPUT' type='submit' class='btn btn-block btn-gti-orange btn-login' aaname='INGRESAR' check:text='INGRESAR' /&gt;" Guid="f9d06785-7d62-49c1-86a7-8a2c0aadd720" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6816cb6-aa20-43cd-88b3-4d9766160f83" CvTextArea="1515, 676, 195, 22" CvTextArgument="¿Olvidó SU contraseña?" CvType="Text" DesignTimeRectangle="1508, 675, 201, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ContentPage_btnOlvidoContrasena' tag='A' type='' class='text-right' aaname='  ¿Olvidó su contraseña?' check:innerText='¿Olvidó su contraseña?' /&gt;" Guid="113a4174-5432-4ff0-89ae-1d31029a82f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dbf707a0d00db40979baf6ab14ec6524.png" xmlns="">0UAfGAhLjU0Cai8RTTQvXHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nUNp0AUA9UaWJWiGhl6f6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Sistema/Inicio" CVScreenId="55cfa58b-fde7-4288-9931-911ef66295c0" CvTextArea="286, 217, 111, 16" CvTextArgument="DOCUMENTOS" CvType="Text" DesignTimeRectangle="260, 213, 151, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Documentos' parentid='frm' tag='A' type='' class='nav-link with-sub' check:innerText='DOCUMENTOS' /&gt;" Guid="15682434-d228-4d8d-a3e6-ca7abb6a5a0e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="55cfa58b-fde7-4288-9931-911ef66295c0" CvTextArea="109, 216, 111, 17" CvTextArgument="FACTURACIÓN" CvType="Text" DesignTimeRectangle="83, 213, 151, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Facturación' parentid='frm' tag='A' type='' class='nav-link with-sub' check:innerText='FACTURACIÓN' /&gt;" Guid="7a499c7a-1f05-49a1-abb4-fd9fe2b1222e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="27fccb7948a27c2fb98904e75ffe2219.png" xmlns="">0mOXm7R5YukyeHljmEXEUJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

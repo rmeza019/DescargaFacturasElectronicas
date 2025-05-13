@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Buscar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LGzswJEnfEqT1gnHfysY8A",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/LGzswJEnfEqT1gnHfysY8A",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "Created": "2025-05-11T22:29:46.3551561Z",
+  "Updated": "2025-05-11T22:29:46.3551561Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

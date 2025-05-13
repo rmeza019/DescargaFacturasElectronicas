@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Documentos",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6KHYxw2weUqhq_dJrWox5g",
+  "Reference": "3Fi4I_VPoUyl9VBFEbTr7Q/6KHYxw2weUqhq_dJrWox5g",
+  "ParentRef": "3Fi4I_VPoUyl9VBFEbTr7Q/n9OgwKvUdUmInZy2a32EaA",
+  "Created": "2025-05-11T22:32:12.7213403Z",
+  "Updated": "2025-05-11T22:32:12.7213403Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

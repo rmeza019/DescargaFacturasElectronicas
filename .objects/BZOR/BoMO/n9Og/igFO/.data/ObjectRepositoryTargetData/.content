@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hrO1CW3GNk-SHMdvXZuY1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="b2bf973d-9321-4a85-8b56-24d25d3ed15f" CvElementArea="1295, 483, 275, 41" CvType="InputBox" DesignTimeRectangle="1297, 485, 272, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='ctl00$ContentPlaceHolder1$txtFechaHasta' tag='INPUT' type='text' class='form-control fc-datepicker' aaname='' /&gt;" Guid="58b6d52d-42bf-4481-a3a4-935bb77b8d6e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b2bf973d-9321-4a85-8b56-24d25d3ed15f" CvTextArea="1295, 464, 92, 15" CvTextArgument="Fecha Hasta" CvType="Text" DesignTimeRectangle="1297, 462, 91, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Hasta' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Hasta' /&gt;" Guid="a58ad3a9-11fe-4e42-b202-26d392b1c53c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="034a2e9148537ce36d71d887f4704a00.png" xmlns="">0NnQg-FoUiEiHCTYAbnCdOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

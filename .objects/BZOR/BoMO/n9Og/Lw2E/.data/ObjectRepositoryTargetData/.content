@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w_zJY3p6D0Ooo3dxc6Xp-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="05925353-83d4-4137-99b8-3d80ed99ec2a" DesignTimeRectangle="1331, 744, 17, 13" DesignTimeScaleFactor="1.25" ElementType="ListItem" Guid="9fcd570b-31ce-4c81-b2d4-51210c89486c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="05925353-83d4-4137-99b8-3d80ed99ec2a" CvTextArea="1282, 397, 93, 17" CvTextArgument="Fecha Hasta" CvType="Text" DesignTimeRectangle="1284, 397, 91, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Fecha Hasta' class='tx-bold' tag='SPAN' /&gt;" Guid="aa9d73ee-7d0c-4a14-b188-ddab85f787fb" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;&lt;webctrl class='picked' parentid='bodyMain' tag='LI' aaname='{0}' innertext='{0}' idx='2' /&gt;", endDay)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a9db6c4a6bacbb232f504f42bd8d171.png" xmlns="">0EFfiMVsoiEqFv0ZBCQlqEw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="endDay" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

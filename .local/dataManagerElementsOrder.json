@@ -1,0 +1,43 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_2",
+        "endYear&Sequence_2",
+        "endMonth&Sequence_2",
+        "endDay&Sequence_2",
+        "startYear&Sequence_2",
+        "startMonth&Sequence_2",
+        "startDay&Sequence_2",
+        "userPasswordUnsecure&Sequence_2",
+        "loginURL&Sequence_2",
+        "endDate&Sequence_2",
+        "startDate&Sequence_2",
+        "companyId&Sequence_2",
+        "userPassword&Sequence_2",
+        "userId&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatePicker.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

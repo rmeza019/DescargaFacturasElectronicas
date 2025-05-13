@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U4Y-ytAAkEGyaYqfXzExWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="facturaelectronica.cr/Sistema/Documentos/DocumentosEmitidos" CVScreenId="e8e07f87-4ed2-4045-af84-53a8e4f2c23f" CvTextArea="1344, 744, 17, 15" CvType="Text" DesignTimeRectangle="1344, 744, 17, 13" DesignTimeScaleFactor="1.25" ElementType="ListItem" Guid="475c94d3-b4b7-4dab-8af3-5efaf9a0464e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GTI Factura Electrónica' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e8e07f87-4ed2-4045-af84-53a8e4f2c23f" CvTextArea="1295, 399, 92, 15" CvTextArgument="Fecha Hasta" CvType="Text" DesignTimeRectangle="1297, 397, 91, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Fecha Hasta' class='tx-bold' tag='SPAN' type='' check:innerText='Fecha Hasta' /&gt;" Guid="88ab6727-b228-4dd6-bb18-3afe646ad21e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.CvTextArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">endDay</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.CvTextArgument>
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl class='picked' parentid='bodyMain' tag='LI' aaname='{0}' innertext='{0}' parentclass='datepicker-panel' /&gt;", endDay)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="dde278290051ebd56d30dc8a6389bbbd.png" xmlns="">0Scsfm5VgUk27SZTsK54CWw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="endDay" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
